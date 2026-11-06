@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Developer Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #f4f7fc;
+            color: #222;
+        }
+
+        header {
+            background: #172338;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #263750;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+        }
+
+        .home {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 50px;
+            background: white;
+        }
+
+        .home img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        h1 {
+            color: #087bfa;
+        }
+
+        button {
+            background: #087bfa;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .section {
+            padding: 35px;
+            text-align: center;
+        }
+
+        .about img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .skills, .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .box {
+            background: white;
+            padding: 20px;
+            width: 220px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #ccc;
+        }
+
+        .box img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #172338;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>My Portfolio</h2>
+    <p>Welcome to my developer website</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="home" id="home">
+    <div>
+        <h1>Hello, I'm Your Name</h1>
+        <h2>Web Developer</h2>
+        <p>I love coding and creating websites.</p>
+        <button>Hire Me</button>
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400"
+    alt="My Profile Photo">
+</div>
+
+<div class="section about" id="about">
+    <h2>About Me</h2>
+    <p>I am a beginner web developer.</p>
+    <p>I enjoy learning HTML, CSS and JavaScript.</p>
+
+    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600"
+    alt="Coding workspace">
+</div>
+
+<div class="section" id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills">
+        <div class="box">
+            <h3>HTML</h3>
+            <p>Website Structure</p>
+        </div>
+
+        <div class="box">
+            <h3>CSS</h3>
+            <p>Website Design</p>
+        </div>
+
+        <div class="box">
+            <h3>JavaScript</h3>
+            <p>Website Functionality</p>
+        </div>
+
+        <div class="box">
+            <h3>C Programming</h3>
+            <p>Basic Programming</p>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="projects">
+    <h2>My Projects</h2>
+
+    <div class="projects">
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400"
+            alt="Calculator project">
+            <h3>Calculator</h3>
+            <p>A simple calculator project.</p>
+            <button>View Project</button>
+        </div>
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400"
+            alt="Registration project">
+            <h3>Registration Form</h3>
+            <p>A student registration form.</p>
+            <button>View Project</button>
+        </div>
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400"
+            alt="Website project">
+            <h3>Personal Website</h3>
+            <p>My first personal website.</p>
+            <button>View Project</button>
+        </div>
+
+    </div>
+</div>
+
+<div class="section" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: yourname@gmail.com</p>
+    <p>Phone: +977 98XXXXXXXX</p>
+    <p>Location: Nepal</p>
+</div>
+
+<footer>
+    <p>© 2026 My Portfolio | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
